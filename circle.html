@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="circle.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="circle.css"/>
+</head>
+<body style="margin:0;">
+<div id="loader">
+<p id="enzyme">Getting enzymes and Proteins</p>
+</div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Voila!<br>Here's my new page</br></h2>
+  <p>Some text in my newly loaded page..</p>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Intro</a></li>
+    <li><a href="#tabs-2">Mitosis</a></li>
+    <li><a href="#tabs-3">Metaphase and Anaphase</a></li>
+    <li><a href="#tabs-4">Telophase</a><li>
+  </ul>
+  <div id="tabs-1">
+    <p id="droppable" style= "display:inline">1.As a cell grows, its surface area to volume ratio decreases and any further growth must be from cell addition._______________allows single cell to become multicellular organisms and is responsible for the growth and development of body cells.</p>
+    <p class= "special" id= "draggable1">Cell division</p>
+    <p id="dragon">Meiosis</p>
+    <div>
+    <p id="stoppable" style= "display:inline">2.In the _______________,the cell is either executing or preparing for cell division.In other for an organism to grow properly, the new cells that arise from cell division must inherit the same function as the parent cell.</p>
+    <p id="drag">Cell cycle</p>
+    <p id="sand">Life span</p> 
+     </div>
+    <div>
+    <p id="globble" style= "display:inline">3.This is made possible through the passing on of ________ </p>
+    <p id="bag">DNA</p>
+    <p id="lunch">Materials</p>
+    </div>
+    <div>
+    <p id="duel" style="display:inline">4.The DNA is found in condensed,organised structures known as _______________.The DNA of a cell is either condensed or uncondensed.</p>
+    <p id="me">chromosomes</p>
+    <p id="you"> mitochondria<p/>
+    </div>
+    <div>
+    <p id="thermos" style="display:inline">5.During cell division,chromosomes duplicate their DNA.the duplicated chromosome consists of two sister _______________ joined by a centromere.the human cells can be classified as either somatic cells or sex cells.Somatic cells contain homologous pairs (chromosomes that share the same genes) so they are diploid(2n).</p>
+    <p id="mouse">chromatids</p>
+    <p id="bin">autosomes</p> 
+    </div>
+    <div>
+    <p id="eraser" style="display:inline">6.Diploid is an example of a descriptor of a cells or organism's ______________________.</p>
+    <p id="pencil">chromosome number</p>
+    <p id="wood">protein count</p>
+    </div>
+    <div>
+    <p id="keyboard" style="display:inline">7. If a cell has homologous pairs they are diploid but if they contain only single(unpaired) chromosomes,they are _____________.Some organisms can also be polypoid.They contain sets of more than two homologous chromosomes (xn where x>2). </p>
+    <p id="table">haploid</p>
+    <p id="bottle">triploid</p>
+    </div>
+    <div>
+    <p id="plastic" style="display:inline">8.Sex cells or gametes have only unpaired chromosomes and so are haploid(n).Gametes are produced through <a class= "special" href="meiosis.html">meiosis</a> where diploid cells are reduced to haploid sex cells(reductitonal division).In humans, the ________________________ undergoes meiosis to produce sperm cells whilst a primary oocyte undergoes meosis to produce ovums. During fertilization the male and female gamet(sperm and egg)fuse to form a zygote.</p>
+    <p id="soap">primary spermatocyte</p>
+    <p id="bodywash">spermatogenium</p> 
+    </div>
+    <div>
+    <p id="icecream" style="display:inline">9.Humans have ___ chromosomes or 23 homologous pairs because 23 chromosomes come from the ovum and 23 from the sperm.Therefore,the reduced chromosome number (in gametes) ensures that the zygote has the proper amount of chromosomes(acording to the species). </p>
+    <p id="drawer">22</p>
+    <p id="bench">46</p>
+    </div>
+    <div>
+    <p id="chair" style="display:inline">10.The zygote(which is diploid) grows by mitotic division. Mitosis occurs in the somatic cells of ________________.Mitosis ensures tat a parent cll divides to produce genectically identical cells(daughter cells).This is required for the continuous replacement of old cells(repair and maintenance) and growth.</p>
+    <p id="floor">prokaryotes</p>
+    <p id="carpet">eukaryotes</p>
+    </div>
+    </div>
+  <div id="tabs-2">
+    <p>Mitosis is the division of the cells genectic material and nucleur content into complete separate sets.its purpose is to produce gectically identical daughter cells.Mitosis occus in four distinct phases:prophase,metaphase,anaphase and telophase(cytokenisis).</p>
+     <p><strong>Prophase</strong></p>
+     <p>The chromosomes are duplicated, the nucleur membrane disolves, centriole breaks off and migrate to the oppsite poles of the cell.Spindle fibres form.</p> 
+     <button id="wind">Show phase</button>
+     <p hidden id= "computer" ><img src="prophase.png"/></p>
+  </div>
+  <div id="tabs-3">
+   <p><strong>Metaphase</strong></p>
+   <p> The chromosomes line up along the equatorial plate.The spindle fibres are responsible for positioning the chromosomes.A spindle fibre is attached to each sister chromatid in each homologous pair(at the centromere).</p>
+   <button id="leaf">Show phase</button> 
+   <p hidden id="clock"><img src="metaphase.png"/></p>
+   <p><strong>Anaphase</strong></p>
+   <p>The spindle fibres contract while the centomeres split apart, pulling the apart sister chromatids to opposite poles.Other fibres of the spindle apparatus simultaneosly lengthen to force the cell's poles away from each other(the cell is elongated).</p>
+   <button id="juice">Show phase</button>
+   <p hidden id="mustang"><img src="anaphase.png"/></p>
+</div>
+  <div id="tabs-4">
+   <p><strong>Telophase</strong></p>
+   <p>Last stage of mitosis!The sister chromatids moves to opposite cell poles.the spindle fibres break downwhile the nuecleus reforms as the chromosomes unravel.Special protein divide the cell by contracting.The cytoplasm and other cell organelles separate(cytokenisis).You now have two identical dipoid cells.</p>
+   <button id="cess">Show phase</button>
+   <div  hidden id="fars">
+   <img  class="active" src= "telophase.png"/>
+   <img src= "mitosiscomplete.png"/>
+    </div> 
+   </div>
+</div>
+</div>
+</body>
+</html>
